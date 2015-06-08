@@ -1,3 +1,5 @@
+tempMap = {}
+
 def insert(item, sortedList):
     index = len(sortedList)
     while index > 0 and item[2] < sortedList[index - 1][2]:
@@ -12,19 +14,14 @@ def insert(item, sortedList):
 def mapper(line):
     datas = line.split(' ')
     language, title, count = datas[1], datas[2], int(datas[3])
+    key = language + '\t' + title
     return (language + '\t' + title, count)
-
-def reducer(x, y):
-    return x + y
-
-def filter1(values):
-    return values[1] >= 10000
 
 def main(rdds):
     mainRdd = rdds[0]
     for index in xrange(1, len(rdds)):
         mainRdd = mainRdd.union(rdds[index])
-    items = mainRdd.map(mapper).reduceByKey(reducer).filter(filter1).sortBy(lambda x: x[1]).collect()
+    items = mainRdd.map(mapper).reduceByKey(lambda x, y: x + y).filter(lambda x: x[1] >= 10000).sortBy(lambda x: x[1]).collect()
     sortedList = []
     length = len(items)
     for index in xrange(length - 1):
