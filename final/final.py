@@ -4,19 +4,19 @@ import re
 
 MAX_URL_INDEX = 89997
 HASH_NUMBER = 100
-MAX_HASH_FACTOR = 1000000
+MAX_HASH_FACTOR = sys.maxint / MAX_URL_INDEX
 BAND_SIZE = 20
-MOD_NUMBER = 1000007
+MOD_NUMBER = 1000000
 
 def main_func(sparkContext, rdd, urlDict):
     initializeGlobalVariable(sparkContext, urlDict)
     userRdd = rdd.flatMap(urlMapper).groupByKey().mapValues(lambda x: set(x)).filter(lambda x: len(x[1]) > 10)
     bandRdd = userRdd.flatMap(bandMapper).groupByKey()
     pairRdd = bandRdd.flatMap(pairMapper).distinct()
-    resultRdd = pairRdd.join(userRdd).map(lambda x: (x[1][0], (x[0], x[1][1]))).join(userRdd).map(jaccardMapper).top(500)
+    resultRdd = pairRdd.join(userRdd).map(lambda x: (x[1][0], (x[0], x[1][1]))).join(userRdd).flatMap(jaccardMapper).top(1000)
 
     for item in resultRdd:
-        print '%.3f\t%d\t%d' % (item[0], item[1][0], item[1][1])
+        print '%.5f\t%d\t%d' % (item[0], item[1][0], item[1][1])
 
 def initializeGlobalVariable(sparkContext, urlDict):
     if __name__ == '__main__':
@@ -49,7 +49,7 @@ def bandMapper((userId, urlSet)):
     for index in xrange(size):
         k = KHASHS.value[index]
         b = BHASHS.value[index]
-        minHashList.append(min([(k * x + b) % MOD_NUMBER for x in urlSet]))
+        minHashList.append(min([(k * x + b) % MAX_URL_INDEX for x in urlSet]))
     bands = [tuple(minHashList[i:i+BAND_SIZE]) for i in xrange(0, len(minHashList), BAND_SIZE)]
     for index in xrange(len(bands)):
         yield ((index, hash(bands[index])), userId)
@@ -64,6 +64,7 @@ def pairMapper((bandHash, userIterator)):
                 yield (userList[j], userList[i])
 
 def jaccardMapper((userId2, ((userId1, userSet1), userSet2))):
-    intersection = userSet1.intersection(userSet2)
-    jaccardValue = len(intersection) * 1.0 / (len(userSet1) + len(userSet2) - len(intersection))
-    return (jaccardValue, (userId1, userId2))
+    if userSet1 != userSet2:
+        intersection = userSet1.intersection(userSet2)
+        jaccardValue = len(intersection) * 1.0 / (len(userSet1) + len(userSet2) - len(intersection))
+        yield (jaccardValue, (userId1, userId2))
