@@ -1,0 +1,157 @@
+"54321"	""	"cs101 "	"100005195"	"<p>I don't think it matters, there was no comment about it in the explanation so I'm assuming that it doesn't matter. </p>
+<p>This question is giving me a hard time, my algorithm is pretty ugly...</p>"	"answer"	"54319"	"54319"	"2012-04-02 22:09:42.626758+00"	"0"	""	"\N"	"100005195"	"2012-04-02 22:14:19.39963+00"	"71796"	"\N"	"\N"	"0"	"f"
+"1010683"	""	"cs373 "	"100010475"	"<p>This <a href=""https://docs.google.com/leaf?id=0BwP06t4a405kZjBlMjllM2UtYzNiOS00YzdjLWE1MTUtOTJhYjE3ZmE4NTdl&amp;hl=en"" rel=""nofollow"">test data</a> is from Velodyne, they told me it was okay to share further.  Most of them involve the HDL-64E mounted on a rooftop in traffic.  </p>
+<p>I have <a href=""http://binarymillenium.com/2008/07/velodyne-lidar-sample-data-getting-pcap.html"" rel=""nofollow"">this post</a> and a few others on the topic of extracting the data from pcap files, though I haven't kept up on it- I would try the ROS tools for pcap data extraction before mine.</p>"	"answer"	"1010614"	"1010614"	"2012-03-02 18:15:26.463285+00"	"1"	""	"\N"	"100010475"	"2012-03-02 18:15:26.463285+00"	"1014662"	"\N"	"\N"	"0"	"f"
+"22728"	"please help -- what am I doing wrong?"	"cs101 help_needed homework2"	"100003932"	"<pre><code>enter code here`
+</code></pre>
+<p>Sorry, homework code shouldn't be posted before the deadline.  /fnenu</p>"	"question"	"\N"	"\N"	"2012-03-06 22:23:07.978626+00"	"0"	"(closed)"	"74139"	"100003932"	"2012-03-06 23:24:23.815789+00"	"29738"	"\N"	"\N"	"279"	"t"
+"21954"	"Using an ""and"" operator in homework 2"	"cs101 homework2 hw2 homework grading"	"100006095"	"<p>I was wondering if we would be able to use ""and"" in homework 2, even though it's not something we explicitly covered. We've used ""or"" so I assumed that there was an ""and"" operator. I used it in the homework, but wasn't sure if it would be allowed. I hope so, since it made the particular question much easier to conceptualize in my head, and therefore to right code that made mathematical sense.</p>"	"question"	"\N"	"\N"	"2012-03-06 16:13:55.735005+00"	"1"	""	"71153"	"100006095"	"2012-03-06 16:35:43.605724+00"	"28803"	"\N"	"\N"	"233"	"f"
+"22078"	"hw 2.3 doubt"	"m-48727560 ps2-3 cs101"	"100002809"	"<p>we have to print the median value right?</p>
+<p>or just write the function def?</p>
+<p>got hw 1.2 incorrect due to fancy printing.. dont want to take risk<br>
+answer soon!</p>"	"question"	"\N"	"\N"	"2012-03-06 17:19:41.472977+00"	"1"	""	"100078733"	"100007655"	"2012-03-06 17:27:43.486919+00"	"100013713"	"\N"	"\N"	"133"	"f"
+"44306"	"Not validated"	"cs101 validated"	"100000710"	"<p>Why does it say my email is not validated, and does it matter?  I clicked on the thing to validate it, and it says it already is.  So what gives?  Does it matter, and if so, why can I not switch it over to 'validated', when, actually, apparently it already is? Anyone have any idea?</p>"	"question"	"\N"	"\N"	"2012-03-21 05:21:21.274889+00"	"0"	""	"\N"	"100008353"	"2012-03-21 06:52:28.161477+00"	"58415"	"\N"	"\N"	"86"	"f"
+"9006697"	""	"ph100 "	"100007518"	"<p>This is a pretty unintuitive thing. We don't think of the ground as capable of pushing but it really can. Try it right now. Push your hand on the ground. The harder you push, the more force you feel. You are <strong>not</strong> feeling the force of <em>you</em> pushing on the <em>ground.</em> What you're feeling is the <em>ground</em> pushing up on <em>you.</em> </p>
+<p>Not only that, but the force with which you are pushing on the ground is <strong>identical</strong> to the force with which it is pushing on you. </p>"	"answer"	"9006696"	"9006696"	"2012-08-01 18:15:11.703069+00"	"3"	"(accepted)"	"\N"	"100025879"	"2012-08-01 18:34:10.947081+00"	"9008856"	"\N"	"\N"	"0"	"t"
+"1011652"	""	"cs373 "	"100027424"	"<p>Your list only has one item in it. You can add items in a few ways:</p>
+<ol>
+<li>Manually: [1./n,1./n,1./n,1./n,1./n]. This is brittle because it can only work for 1 n</li>
+<li>List comprehensions: [1./n for i in range(n)]. This is a fast a Pythonic way to express a loop.</li>
+<li>A regular for loop: for i in range(n):p.append(1./n). This is the most basic and universal across languages.</li>
+<li>The list multiplication operator: [1./n]*n. This is the most concise and works by adding (concatenating) the list to itself n-1 times.</li>
+</ol>"	"answer"	"1011647"	"1011647"	"2012-03-04 03:56:37.586806+00"	"2"	"(accepted)"	"\N"	"100003403"	"2012-03-04 04:21:07.203693+00"	"1015978"	"\N"	"\N"	"0"	"t"
+"3217"	"About Forums"	"cs101 info access"	"100007764"	"<p>How can I access to CS373 forum with my previous account???</p>
+<p>Iam using Gmail...</p>
+<p>Best regards!!!</p>"	"question"	"\N"	"\N"	"2012-02-23 15:14:22.368382+00"	"0"	"(wiki)"	"12414"	"100007764"	"2012-02-24 14:30:16.338115+00"	"4189"	"\N"	"\N"	"191"	"f"
+"22196"	"Dropping a course"	"cs101 unenroll"	"100005164"	"<p>When I try to unenroll, I receive an error message. Could anyone tell me how to drop a course?</p>"	"question"	"\N"	"\N"	"2012-03-06 18:20:26.570626+00"	"1"	""	"\N"	"100005517"	"2012-03-07 14:49:09.000862+00"	"29087"	"\N"	"\N"	"504"	"f"
+"21189"	"UNIT 3 testing the crawl in the test web page?!"	"cs101 unit3 web crawl"	"100004650"	"<p>has anyone try the crawl in the page = 'http://www.udacity.com/cs101x/index.html' 'cause the only answer i get in the variable Crawled is the same link! suggestions?!</p>"	"question"	"\N"	"\N"	"2012-03-06 08:52:35.177049+00"	"1"	""	"99875"	"100003924"	"2012-03-11 02:14:32.402713+00"	"40803"	"\N"	"\N"	"468"	"f"
+"25973"	"is homework 2 imparcial?"	"cs101 meta"	"100005570"	"<p>yes! for me.</p>
+<p>because Im have tested it massively and all is ok both, in my python console and in the class console, so, for this, Im make copy with the secreen when I clicked ""run"" and when I clicked ""submit"", I need calrification</p>
+<p>thank's </p>"	"question"	"\N"	"\N"	"2012-03-08 05:08:17.469142+00"	"0"	""	"100077499"	"100008254"	"2012-03-08 05:10:29.7559+00"	"100013551"	"\N"	"\N"	"131"	"f"
+"25441"	"How I Calculated The Median"	"cs101 median math homework quiz"	"100008548"	"<pre>def median(a, b, c):
+     return sorted([a, b, c])[len([a, b, c])/2]
+
+print median(3,6,5)
+
+</pre>
+
+<p>This is how I did it and it worked without doubt!<br>
+I hope it helps!</p>"	"question"	"\N"	"\N"	"2012-03-08 02:22:34.226175+00"	"0"	""	"\N"	"100006944"	"2012-03-10 13:41:10.99761+00"	"33154"	"\N"	"\N"	"275"	"f"
+"21754"	"Hello people :) Anyone who speaks French? Anyone from India? Just wondering.."	"cs101 students background wondering"	"100004176"	"<p>Hello people :) Anyone who speaks French? Anyone from India? Just wondering..<br>
+This is an awesome platform to make friends, I suppose. Take that, Zuckerburg ;)</p>"	"question"	"\N"	"\N"	"2012-03-06 14:53:09.235505+00"	"0"	""	"\N"	"100004557"	"2012-03-06 14:54:59.858062+00"	"28539"	"\N"	"\N"	"266"	"f"
+"22304"	"Somebody please paste homework 2.5 loop codes below?"	"cs101 loops homework2 homework hw2.5"	"100005834"	"<p>I am not able to find or see the codes for the three loops. Somebody please paste the pieces of code here.</p>"	"question"	"\N"	"\N"	"2012-03-06 19:11:28.994152+00"	"0"	""	"72340"	"100008254"	"2012-03-06 19:18:24.376637+00"	"29248"	"\N"	"\N"	"408"	"f"
+"2227"	"Hi Peter, where am I able to see ""Answer?"""	"cs101 answer question location"	"100006977"	"<p>Hi Peter,</p>
+<p>It appears that you responded to my question about ""Quiz Hello!!!, as I see ""1"" in the answer column on the right side. But where I should I go to see your ""answer?"" I clicked the number ""1"", which didn't take me anywhere. I went to twitter but didn't see any answer.</p>
+<p>Sorry that I'm so backward but I'm very appreciative if you can direct me where to go see your response.</p>
+<p>Thank you very much!</p>"	"question"	"\N"	"\N"	"2012-02-22 22:48:15.517041+00"	"0"	""	"\N"	"100005361"	"2012-02-23 01:30:44.81976+00"	"2858"	"\N"	"\N"	"516"	"f"
+"3341"	"Submit button"	"cs101 submit"	"100001823"	"<p>I don't see any submit button for both the homework questions and the Python interpreter.</p>"	"question"	"\N"	"\N"	"2012-02-23 16:44:17.836204+00"	"0"	""	"\N"	"100001823"	"2012-02-23 21:26:23.951914+00"	"4333"	"\N"	"\N"	"179"	"f"
+"1022659"	""	"cs373 "	"100009621"	"<p>I probably won't be able to put much time into it either, but you can count me in.</p>
+<p>[edit]: I just noticed I'm the only one (besides you) who's officially registered on the team. Maybe you should put the information to join in the question; now it's buried in a comment.</p>"	"answer"	"1021939"	"1021939"	"2012-03-18 17:04:25.836226+00"	"0"	""	"1089190"	"100009621"	"2012-03-18 17:25:25.730913+00"	"1030767"	"\N"	"\N"	"0"	"f"
+"1022658"	""	"cs373 "	"100010185"	"<p>I get the same values, the only problem that it takes 276 !!! iterations for me to compute the table. Am I doing something wrong? The code runs in about 0.6 seconds.<br>
+ge.</p>
+<p>(by 1 iteration I mean 1 full run over the table using a path finding method. after the 3rd run the table is populated with relatively good values, but after that it converges very slowly to the final values)</p>"	"answer"	"1022379"	"1022379"	"2012-03-18 17:03:40.522487+00"	"0"	""	"1089113"	"100009426"	"2012-03-18 18:29:36.494071+00"	"1030746"	"\N"	"\N"	"0"	"f"
+"30499"	"web applications"	"cs101 webapps"	"100008149"	"<p>is google a web app.??</p>"	"question"	"\N"	"\N"	"2012-03-10 17:03:53.190268+00"	"0"	""	"\N"	"100006634"	"2012-03-10 17:07:02.391019+00"	"39867"	"\N"	"\N"	"140"	"f"
+"28395"	"HW 3.3 is empty list special?"	"cs101 hw3.3"	"100007648"	"<p>In the statement of the problem nothing is mentioned about the empty list.<br>
+Should we treat it in a special way or not? <br>
+If the empty list is treated as any other list, it seems that the output doesn't make too much sense.</p>"	"question"	"\N"	"\N"	"2012-03-08 23:54:44.876721+00"	"0"	"(closed)"	"115028"	"100007648"	"2012-03-14 03:03:14.805975+00"	"37038"	"\N"	"\N"	"127"	"t"
+"34785"	"the greatest unit 3 h.m"	"cs101 greatest hw3.4"	"100008174"	"<p>please people<br>
+i now the due of this h.m very close,and im not even close to end  but i really need some way  of thinking abuot the greatest.<br>
+the problem is i cant think of anything abuot how do i compare and hold the great number all the time<br>
+thanks<br>
+thanks<br>
+thanks  </p>"	"question"	"\N"	"\N"	"2012-03-13 20:34:06.907444+00"	"0"	""	"111778"	"100005916"	"2012-03-13 21:55:52.265471+00"	"45426"	"\N"	"\N"	"301"	"f"
+"27469"	"hw2.4 why is it wrong?"	"cs101 hw2.4"	"100007412"	"<p>This is my solution for hw 2.4, Why is it wrong?</p>
+<p>def countdown(n):<br>
+        while n&gt;=1:<br>
+            print n<br>
+            n=n-1<br>
+        if n==0:<br>
+           stringa='Blastoff!'<br>
+           return stringa<br>
+        return n<br>
+print countdown (5)</p>
+<p>Tanks</p>"	"question"	"\N"	"\N"	"2012-03-08 17:02:51.714873+00"	"0"	""	"\N"	"100008572"	"2012-03-08 17:04:49.670937+00"	"35809"	"\N"	"\N"	"97"	"f"
+"23150"	"replace spy"	"cs101 unit3.13"	"100004580"	"<p>Hi,</p>
+<p>Why doesn't </p>
+<p>spy[2] = 8</p>
+<p>work? It seems like I am changing only the third element in the array and therefore I am not creating a new array object.</p>
+<p>Thanks </p>"	"question"	"\N"	"\N"	"2012-03-07 01:48:20.047274+00"	"0"	""	"\N"	"100008231"	"2012-03-07 01:57:11.343124+00"	"30250"	"\N"	"\N"	"154"	"f"
+"11929"	"Tips for beginners"	"cs101 tips"	"100006243"	"<p>Make your code easy to follow.<br>
+Comment often.<br>
+Use well chosen names for variables and name your variables often.<br>
+More lines is often better.<br>
+The print function is your friend.<br>
+Use the print function to print values of the well named variables when you are having problems.<br>
+These steps will help you troubleshoot your code.</p>
+<p>Anyone want to add to this list?</p>"	"question"	"\N"	"\N"	"2012-03-01 03:22:28.429637+00"	"7"	""	"\N"	"100003670"	"2012-03-06 23:05:00.618412+00"	"15302"	"\N"	"\N"	"281"	"f"
+"20508"	"Different Stooges Quiz"	"cs101 stooges"	"100000343"	"<p>Why does the following does not produce an error message for line #7?  Is the line of code <code>['Moe','Larry','Shemp']</code> is considered as part of the comment even though there is no pound (#) sign at the beginning of the statement?</p>
+<pre><code>#We defined:
+
+stooges = ['Moe','Larry','Curly']
+
+#but in some Stooges films, Curly was
+#replaced by Shemp.
+
+#Write one line of code that changes
+#the value of stooges to be:
+
+['Moe','Larry','Shemp']
+
+#but does not create a new List
+#object.
+</code></pre>
+<p>Thanks</p>"	"question"	"\N"	"\N"	"2012-03-06 01:00:04.130345+00"	"0"	""	"\N"	"100008254"	"2012-03-06 01:50:34.198099+00"	"26954"	"\N"	"\N"	"155"	"f"
+"26649"	"HW 2-6 marked incorrect ?"	"cs101 hw2.6"	"100007136"	"<p>Hello,</p>
+<p>My homework 2.6 is marked as incorrect, yet I don't understand why ....</p>
+<p>def find_last(dictionary,word):<br>
+    position = -2<br>
+    while position != -1:<br>
+        lastPosition = position<br>
+        position = dictionary.find(word,position+1)<br>
+    if lastPosition == -2:<br>
+        return -1<br>
+    return lastPosition</p>
+<p>print find_last('', 'b')</p>
+<p>This was returning the correct answer for all the weird test cases, and the normal ones ?_? I'm kinda at a loss atm about it.</p>"	"question"	"\N"	"\N"	"2012-03-08 10:14:15.873968+00"	"0"	""	"\N"	"100005632"	"2012-03-08 10:33:04.834584+00"	"34729"	"\N"	"\N"	"88"	"f"
+"488"	"CS101 Cannot type Python Program"	"cs101 python"	"100000337"	"<p>I cannot type anything into the browser. Please help.</p>"	"question"	"\N"	"\N"	"2012-02-21 16:05:07.093077+00"	"0"	""	"\N"	"100002245"	"2012-02-26 23:23:28.253602+00"	"648"	"\N"	"\N"	"304"	"f"
+"21469"	"hello, koreans?"	"korean cs101 meta studygroup"	"100004712"	"<p>hi</p>
+<p>i am  in Busan. anyone from korea here?</p>"	"question"	"\N"	"\N"	"2012-03-06 12:11:50.106816+00"	"0"	""	"100074589"	"100004712"	"2012-03-06 12:11:50.106816+00"	"100012806"	"\N"	"\N"	"99"	"f"
+"22249"	"Why is string immutable?"	"cs101 string"	"100004156"	"<p>Just wonder why this characteristic. Is this specific to Python?</p>"	"question"	"\N"	"\N"	"2012-03-06 18:45:03.203324+00"	"1"	""	"72065"	"100004118"	"2012-03-06 19:07:10.825178+00"	"29164"	"\N"	"\N"	"357"	"f"
+"23243"	"locked out of course content"	"cs101 locked out"	"100006336"	"<p>Completely locked out- unable to open course content page. </p>"	"question"	"\N"	"\N"	"2012-03-07 03:11:08.753809+00"	"0"	""	"\N"	"100005396"	"2012-03-07 03:15:12.24734+00"	"30391"	"\N"	"\N"	"135"	"f"
+"25446"	"Homework 3 Due When?"	"cs101 homework"	"100005603"	"<p>Can someone tell where I can look on the site to find out when homework is due?</p>
+<p>Thanks.</p>"	"question"	"\N"	"\N"	"2012-03-08 02:24:17.445025+00"	"0"	"(closed)"	"138788"	"100005603"	"2012-03-20 18:17:42.96109+00"	"33162"	"\N"	"\N"	"113"	"t"
+"23974"	"Pop Quiz, unit 3.31"	"cs101 references lists pop 3.31"	"100004168"	"<p>When x is set to equal p.pop(), and then x is appended to P, would it be correct to say that the value of the list HAS changed in that the list no longer contains 'just' a value, but rather a reference to the variable x.  </p>"	"question"	"\N"	"\N"	"2012-03-07 13:55:00.482789+00"	"0"	""	"\N"	"100004168"	"2012-03-07 13:55:00.482789+00"	"31319"	"\N"	"\N"	"158"	"f"
+"4860"	"Will there be a calender showing the start date of classes?"	"cs101 classes organize"	"100002495"	"<p>Right now, you have to enroll for a course to see if it has already started or not. For example I'm doing the CS101 class and would like to know when the ""robotic car""-class starts without having to enroll.</p>
+<p>Will there be a calender showing when all future classes start and maybe how often they will be repeated, so that everybody is able to organize themselves when to take which class?</p>"	"question"	"\N"	"\N"	"2012-02-24 18:32:35.893674+00"	"0"	""	"\N"	"100002495"	"2012-02-24 18:40:08.60212+00"	"6286"	"\N"	"\N"	"178"	"f"
+"60990"	""	"cs101 "	"100008268"	"<p>This issue has been noted elsewhere and <a href=""http://forums.udacity.com/users/100005361/peterudacity"">@PeterUdacity</a> is aware of the problem, though I haven't heard if it has been fixed.</p>
+<p>Just resubmit and you should be fine. Also, a good idea to get an IDE (Integrated Development Environment) on your computer so you can always save your code in case of such issues in the future.</p>
+<p><a href=""http://www.udacity-forums.com/cs101/questions/59970/deleting-submissions?page=1&amp;focusedAnswerId=60015#60015"" rel=""nofollow""></a><a href=""http://www.udacity-forums.com/cs101/questions/59970/deleting-submissions?page=1&amp;focusedAnswerId=60015#60015"" rel=""nofollow"">http://www.udacity-forums.com/cs101/questions/59970/deleting-submissions?page=1&amp;focusedAnswerId=60015#60015</a></p>
+<p><a href=""http://www.udacity-forums.com/cs101/questions/59790/so-you-think-youre-done-check-your-progress?page=1&amp;focusedAnswerId=59990#59990"" rel=""nofollow""></a><a href=""http://www.udacity-forums.com/cs101/questions/59790/so-you-think-youre-done-check-your-progress?page=1&amp;focusedAnswerId=59990#59990"" rel=""nofollow"">http://www.udacity-forums.com/cs101/questions/59790/so-you-think-youre-done-check-your-progress?page=1&amp;focusedAnswerId=59990#59990</a></p>"	"answer"	"60983"	"60983"	"2012-04-09 21:06:27.411328+00"	"2"	""	"191393"	"100007720"	"2012-04-09 21:26:57.121416+00"	"80606"	"\N"	"\N"	"0"	"f"
+"11004734"	""	"cs215 "	"100022094"	"<p><a href=""http://forums.udacity.com/users/100025468/ked4r-4""><a href=""http://forums.udacity.com/users/100025468/ked4r-4"">@ked4r</a></a><br>
+<br>obviously I am not an expert, so I don't dare saying Skiena is right or wrong.<br>
+<br>Accordingly to what he says in his book, given a graph and a value k, it is possible to verify if k is the chromatic number of a graph in expected constant time. Therefore it would mean the problem is in NP.<br>
+<br>Perhaps that ""expected"" could make a difference or not, but I believe Skiena is a much more reliable source than myself.<br>
+<br><br>
+<br>EDIT: on second thought, if the worst case is exponential, that would mean that at least one certificate could not be verified in poly time, which would make the problem not be in NP. And in such case either my interpretation of the book or the book itself is wrong.</p>"	"comment"	"11004731"	"11004305"	"2012-08-08 08:04:28.85856+00"	"0"	""	"11038375"	"100022094"	"2012-08-08 08:09:15.483216+00"	"11007100"	"\N"	"\N"	"0"	"f"
+"10010681"	""	"st101 "	"100074157"	"<p>In that case we need to specify <strong>approximately</strong> normally <br>
+distributed :-)</p>"	"comment"	"10010679"	"10010677"	"2012-08-08 07:56:02.341472+00"	"0"	""	"\N"	"100074157"	"2012-08-08 07:56:02.341472+00"	"10015192"	"\N"	"\N"	"0"	"f"
+"23978"	"Can′t Submit Homework or Questions on Unit 3"	"cs101 bug"	"100003297"	"<p>Since yesterday, I can′t submit Homework 2.6 and 2.7 and questions on UNIT 3. It says that an error occured and I need to refresh the page.</p>"	"question"	"\N"	"\N"	"2012-03-07 13:58:42.337807+00"	"0"	""	"\N"	"100004888"	"2012-03-07 14:00:57.185858+00"	"31324"	"\N"	"\N"	"80"	"f"
+"24175"	"HW3.8 easier than HW3.7?"	"cs101 homework3 sudoku maxdepth"	"100005367"	"<p>Well, that is the question. Have anyone of you find easier HW3.8 than HW3.7?</p>
+<p>Obviously I'm asking because I did!! HW3.8 is rated ""3 Golden Starts"" and, therefore, it should's been more difficult.</p>
+<p>Anyway, I think I can overlooked something or maybe my HW is just wrong!! So I want to ask if anyone have think the same way, in that case maybe mine is not wrong :)</p>"	"question"	"\N"	"\N"	"2012-03-07 16:09:32.55651+00"	"2"	""	"\N"	"100004586"	"2012-03-08 20:55:42.827047+00"	"31566"	"\N"	"\N"	"884"	"f"
+"10010678"	""	"st101 "	"100103717"	"<p>Right, so after poring through this, I have to say what you're doing here makes a lot of sense, particularly on the standard deviation part. Adam mentioned the standard deviations of both z(y) and z(x) both equaling 1, but never explaining why.</p>
+<p>One minor thing: when you move to take the standard deviation of x, it's still written as x(i) in the equation, which confused me at first. I see now that you were doing the same in your first derivation when taking the mean of the variable. However, there, you remembered to make x the constant which allows you to subtract it from the second factor.</p>
+<p>Also, I'd love to know how you're able to type in all of these amazing subscripts and mathematical symbols. Are you using Mac?</p>"	"comment"	"10010264"	"10010256"	"2012-08-08 07:35:55.275106+00"	"1"	""	"\N"	"100012003"	"2012-08-08 09:04:31.178683+00"	"10015189"	"\N"	"\N"	"0"	"f"
+"22338"	"Are the embedded questions in the Units graded?"	"cs101 newquestion help embedded"	"100004369"	"<p>Sorry if this has been asked before. I am a newcomer to this class. Thank you!</p>"	"question"	"\N"	"\N"	"2012-03-06 19:23:07.764555+00"	"0"	""	"\N"	"100005263"	"2012-03-06 19:29:25.897894+00"	"29260"	"\N"	"\N"	"254"	"f"
+"29763"	"Adding comments to functions."	"cs101 homework comments"	"100001711"	"<p>I know the issue of comments had been discussed, but it was in unit 1, when we didn't write procedures, so that changes things.</p>
+<p>Can we add comments to our procedures? My sudoku checker is 37 lines and I'd like to have comments in there because it organizes certain parts of the function. Will this mess with the interpreter or do you just check for True/False returns?</p>"	"question"	"\N"	"\N"	"2012-03-10 00:44:16.022122+00"	"0"	"(closed)"	"102921"	"100001711"	"2012-03-11 22:52:43.32798+00"	"38925"	"\N"	"\N"	"166"	"t"
+"23190"	"Do code quizzes seem easier than multiple choice?"	"cs101 quizzes"	"100004141"	"<p>I seem to be having an easier time with the coding quizzes than I am with the multiple choice quizzes. Is this true for anyone else? Is it because it's easier to devote more time to the coding quizzes?</p>"	"question"	"\N"	"\N"	"2012-03-07 02:27:57.439799+00"	"2"	""	"75448"	"100003007"	"2012-03-07 15:45:43.354667+00"	"30325"	"\N"	"\N"	"320"	"f"
+"22093"	"HW 2.5 , logic problem"	"cs101 hw2.5"	"100004755"	"<p>In problem 2.5 , any positive integer will include 1 so it won't even enter the loop , should it be made into consideration ?</p>"	"question"	"\N"	"\N"	"2012-03-06 17:27:15.015152+00"	"0"	""	"\N"	"100008254"	"2012-03-06 17:44:06.733626+00"	"28962"	"\N"	"\N"	"201"	"f"
+"34142"	"try again in quiz 4.6"	"cs101 4.6"	"100000334"	"<p>I am getting the required output but still it says there is an error. try again. I am using notepad to edit code. Is that the reason for my problems</p>"	"question"	"\N"	"\N"	"2012-03-13 14:06:22.766911+00"	"0"	""	"\N"	"100008231"	"2012-03-13 22:17:26.852555+00"	"44541"	"\N"	"\N"	"147"	"f"
+"17452"	"Homework 2 Question 2 doubt"	"cs101 side-effect hw2.2"	"100000522"	"<p>In Homework 2 Question 2 what exactly do side-effects mean?</p>
+<p>Do they(side-effects) mean with reference to the caller or with reference to the local variables in the procedure?</p>"	"question"	"\N"	"\N"	"2012-03-04 09:05:39.814248+00"	"1"	"(wiki)"	"60432"	"100008373"	"2012-03-05 02:32:19.095672+00"	"24513"	"\N"	"\N"	"288"	"f"
+"22346"	"Online Interpreter Working.... forever"	"cs101 website-issue"	"100002894"	"<p>trying to finish up on the homework but I can't seem to test code because it hangs everytime.  Is this because the server is overloaded or is it just me and my browser?  It shouldn't be because I'm using the best and fastest browser, chrome! </p>"	"question"	"\N"	"\N"	"2012-03-06 19:24:38.765249+00"	"0"	""	"\N"	"100002894"	"2012-03-06 19:24:38.765249+00"	"29268"	"\N"	"\N"	"161"	"f"
+"32986"	"Calling the Value of a nested List"	"cs101 hw3.8 list nested"	"100008006"	"<p>Maybe not the most elegant solution, but I'm trying to tackle 3.8 by running a test on each row. Works so far, but I'd then like to create a new list of lists, by transposition.</p>
+<p>What is wrong with this syntax?</p>
+<p>q[i][j]=p[j][i]</p>
+<p>how do you call an element from within a nested list?</p>"	"question"	"\N"	"\N"	"2012-03-12 17:21:38.765156+00"	"0"	""	"\N"	"100004948"	"2012-03-12 17:31:03.842642+00"	"43102"	"\N"	"\N"	"168"	"f"

@@ -10,6 +10,8 @@ for line in sys.stdin:
     if len(datas) != 2:
         continue
     parentId, authorId = datas
+    parentId = int(parentId)
+    authorId = int(authorId)
     if lastParent and lastParent != parentId:
         print '{0}\t{1}'.format(lastParent, threadList)
         threadList = []

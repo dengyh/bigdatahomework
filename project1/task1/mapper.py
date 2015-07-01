@@ -3,22 +3,29 @@
 import sys
 import re
 
-hourPattern = re.compile(r'(?<=\ )[0-9]+?(?=:)')
+currentLine = ''
 
-lastLine = ''
-firstLine = True
+def mapper(line):
+    dataList = line.replace('\n', ' ').split('\t')
+    if len(dataList) != 19 or (not dataList[0].strip('"').isdigit()) or (not dataList[3].strip('"').isdigit()):
+        return
+    authorId = dataList[3].strip('"')
+    activeTime = dataList[8].strip('"')
+    pos1 = activeTime.find(' ')
+    pos2 = activeTime.find(':', pos1)
+    activeHour = activeTime[pos1+1:pos2]
+    print '{0}\t{1}'.format(authorId, activeHour)
 
 for line in sys.stdin:
-    if firstLine:
-        firstLine = False
-        continue
-    line = lastLine + line
-    dataList = line.strip().split('\t')
-    if len(dataList) < 19:
-        lastLine = line
-        continue
-    authorId = dataList[3]
-    activeTime = dataList[8]
-    activeHour = hourPattern.search(activeTime).group()
-    print '{0}\t{1}'.format(authorId, activeHour)
-    lastLine = ''
+    items = line.split('\t')
+    if len(items) > 4 and items[0].strip('"').isdigit() and items[3].strip('"').isdigit():
+        if currentLine:
+            mapper(currentLine)
+        currentLine = line
+    else:
+        if currentLine:
+            currentLine += line
+
+if currentLine:
+    mapper(currentLine)
+    

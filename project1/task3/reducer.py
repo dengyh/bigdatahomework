@@ -1,33 +1,21 @@
 #!/usr/bin/python
 
 import sys
+import heapq
 
 lastTag = None
-tagCount = 0
-sortedList = []
-
-def insert(item, sortedList):
-    index = len(sortedList)
-    while index > 0 and item['count'] > sortedList[index - 1]['count']:
-        index -= 1
-    if index < 10:
-        if len(sortedList) >= 10:
-            sortedList.pop()
-        sortedList.insert(index, item)
+sortedList = {}
 
 for line in sys.stdin:
     datas = line.strip().split('\t')
-    if len(datas) != 2:
+    if len(datas) != 3:
         continue
-    tag, count = datas
-    if lastTag and lastTag != tag:
-        insert({'tag': lastTag, 'count': tagCount}, sortedList)
-        tagCount = 0
-    tagCount += int(count)
-    lastTag = tag
+    nouse, tag, count = datas
+    if tag not in sortedList.keys():
+        sortedList[tag] = 0
+    sortedList[tag] += 1
 
-if tagCount != 0:
-    insert({'tag': lastTag, 'count': tagCount}, sortedList)
+results = heapq.nlargest(10, sortedList, key=sortedList.get)
 
-for item in sortedList:
-    print '{0}\t{1}'.format(item['tag'], item['count'])
+for item in results:
+    print '{0}\t{1}'.format(item, sortedList[item])

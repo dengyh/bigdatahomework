@@ -16,6 +16,7 @@ for line in sys.stdin:
         for index in xrange(24):
             if maxActiveHour == activeHour[index]:
                 print '{0}\t{1}'.format(lastAuthor, index)
+                break
         activeHour = [0] * 24
     activeHour[hour] += 1
     lastAuthor = authorId
@@ -25,3 +26,4 @@ if activeHour != [0] * 24:
     for index in xrange(24):
         if maxActiveHour == activeHour[index]:
             print '{0}\t{1}'.format(lastAuthor, index)
+            break
